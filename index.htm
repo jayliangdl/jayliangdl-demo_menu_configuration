@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>运维页面功能</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container"></div>
+<button onclick="addMenu()">增加菜单</button>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <input type="text" id="newName" placeholder="Enter new name">
+    <button onclick="saveName()">保存</button>
+  </div>
+</div>
+
+<div id="addModal" class="modal">
+  <div class="modal-content">
+    <input type="text" id="addName" placeholder="输入新菜单名称">
+    <button onclick="submitNewMenu()">提交</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
